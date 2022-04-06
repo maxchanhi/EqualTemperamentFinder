@@ -1,0 +1,19 @@
+ The program finds a suitable number of equal temperaments for a series of notes or ratios.
+ It is useful for inharmonic tuning.
+
+Separate individual items with a space bar. There are two ways to use this program: 1, enter the frequencies (Hz) from tonic to the octave;
+
+An example of entering an inharmonic scale in frequency:
+
+    220  259.2   302.5   329.6296296   362.3290203   432.8
+
+2, enter the ratio of every note relates to the tonic form to the octave
+
+An example of entering a major scale in ratios (just intonation):
+
+    1 1.12246 1.25992 1.33483 1.49831 1.68179 1.88775 2
+
+The boundary of matching frequency is +/-15 cents which is an average number of comparing 12-TET and just intonation.
+It an be changed on lines 7 and 9.
+
+The upper limit of finding the ET is 40, it can be changed on line 15
